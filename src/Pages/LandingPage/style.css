@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me {
+  display: flex;
+}
+
+.about-me-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 2%;
+}
+
+.about-me-image {
+  width: 80%;
+}
+
+.contact {
+  font-size: 1.4rem;
+}
+
+.about-me-right {
+  width: 78%;
+}
+
+.name {
+  font-size: 2rem;
+  font-style: italic;
+}
