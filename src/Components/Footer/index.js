@@ -13,6 +13,7 @@ class Footer extends Component {
             target="_blank">
             GitHub
           </a>
+          &nbsp;|&nbsp;
           <a
             href="https://www.linkedin.com/in/anna-erkers-868738118/"
             rel="noopener noreferrer"
@@ -22,7 +23,11 @@ class Footer extends Component {
           <br />
           anna.erkers@gmail.com
           <br />
-          +4670 - 228 94 77
+          <a
+            href="tel:+4670-228-94-77"
+            rel="nofollow">
+            +4670 - 228 94 77
+          </a>
         </p>
       </footer>
     )
