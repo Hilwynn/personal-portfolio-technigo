@@ -16,11 +16,37 @@
   display: flex;
 }
 
+.about-me,
+.about-me-left,
+.about-me-right {
+  position: relative;
+}
+
+.about-me-background-bottom {
+  background-color: var(--cream);
+  bottom: -15px;
+  height: 365px;
+  opacity: 0.9;
+  position: absolute;
+  right: 0;
+  transform: rotate(-1deg);
+  width: 400px;
+}
+
+.about-me-background-top {
+  background-color: var(--green);
+  bottom: -10px;
+  height: 365px;
+  opacity: .3;
+  position: absolute;
+  right: 0;
+  transform: rotate(5deg);
+  width: 400px;
+}
+
 .about-me-left {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 2%;
+  margin: 2rem 1.5rem 0;
 }
 
 .about-me-image {
@@ -31,12 +57,29 @@
   border-radius: 50%;
 }
 
-.contact {
+.about-me-contact {
   font-size: 1.4rem;
+  padding-right: 4rem;
+  text-align: right;
+}
+
+.about-me-contact a {
+  color: var(--black);
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.about-me-contact a:first-child:after {
+  content: " \007C ";
+  position: relative;
 }
 
 .about-me-right {
-  width: 78%;
+  width: 88%;
+}
+
+.about-me-bio {
+  padding: 1.5rem 2.8rem 0 0;
 }
 
 .buttons {
@@ -47,6 +90,10 @@
 .tech p {
   font-size: 1.8rem;
   line-height: 3rem;
+}
+
+.bullet {
+  margin: 0 .5rem;
 }
 
 .cases {

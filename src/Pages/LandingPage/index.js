@@ -6,45 +6,61 @@ class LandingPage extends Component {
   render() {
     return (
       <main className="wrapper">
+
         <header className="heading">
           <h1>
             <span className="pink">A</span>nna Erk<span className="purple">e</span>rs.
           </h1>
         </header>
+
         <section className="container about-me">
+          <div className="about-me-background-bottom" />
+          <div className="about-me-background-top" />
           <div className="about-me-left">
             <div className="about-me-image">
               <img src="/images/portrait.png" alt="Anna Erkers" />
             </div>
-            <p className="contact">
-              anna.erkers@gmail.com
-              <br />
-              +4670 - 228 94 77
-            </p>
           </div>
           <div className="about-me-right">
             <h2>
               Frontend Developer <br />
               + Translator
             </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in
-              voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint
-              occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <div className="buttons">
-              <Button linkTarget="https://github.com/Hilwynn" linkName="View my Github" />
-              <Button
-                linkTarget="#"
-                linkName="View my LinkedIn" />
+            <div className="about-me-bio">
+              <p>
+                Hello! I&apos;m a linguistics
+                enthusiast with a knack for
+                problem-solving and falling down google
+                holes in search of everything from cool
+                new CSS tricks to Warcraft lore.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna
+                aliqua. Duis at tellus at urna
+                condimentum.
+              </p>
+            </div>
+            <div className="about-me-contact">
+              <p>
+                <a
+                  href="https://github.com/Hilwynn"
+                  rel="noopener noreferrer"
+                  target="_blank">
+                  GitHub
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/anna-erkers-868738118/"
+                  rel="noopener noreferrer"
+                  target="_blank">
+                  LinkedIn
+                </a>
+                <br />
+                anna.erkers@gmail.com
+                <br />
+                +4670 - 228 94 77
+              </p>
             </div>
           </div>
         </section>
@@ -52,10 +68,13 @@ class LandingPage extends Component {
         <section className="container tech">
           <h2>Tech.</h2>
           <p>
-            200+ hours of coding &#9679;
-            15 individual tasks &#9679;
+            200+ hours of coding
+            <span className="bullet pink">&#9679;</span>
+            15 individual tasks
+            <span className="bullet pink">&#9679;</span>
             HTML5, CSS3, Flexbox, JavaScript, ES6, JSX, React, APIs
-            &#9679; 2 sprints with demos at Volumental and Bonnier News
+            <span className="bullet pink">&#9679;</span>
+            2 sprints with demos at Volumental and Bonnier News
           </p>
           <div className="cases">
             <article className="case-card">
@@ -101,6 +120,12 @@ class LandingPage extends Component {
         <section className="container studies">
           <h2>Studies.</h2>
           <p>Yes hello I used to do linguistics stuff</p>
+          <div className="buttons">
+            <Button linkTarget="https://github.com/Hilwynn" linkName="View my Github" />
+            <Button
+              linkTarget="#"
+              linkName="View my LinkedIn" />
+          </div>
         </section>
 
       </main>
