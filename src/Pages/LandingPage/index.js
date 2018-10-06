@@ -138,6 +138,7 @@ class LandingPage extends Component {
                 <li>SASS</li>
                 <li>Node.js</li>
                 <li>Redux</li>
+                <li>Grid</li>
                 <li>anime.js</li>
               </ul>
             </div>

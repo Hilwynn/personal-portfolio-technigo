@@ -141,10 +141,14 @@
   width: 33.33%;
 }
 
+.skill-list li {
+  padding-left: .3rem;
+}
+
 .skills-background-bottom,
 .skills-background-top {
   bottom: 0;
-  height: 26.5rem;
+  height: 29rem;
   position: absolute;
   left: -2rem;
   width: 60rem;
