@@ -31,7 +31,7 @@ class LandingPage extends Component {
                 enthusiast with a knack for
                 problem-solving and falling down google
                 holes in search of everything from cool
-                new CSS tricks to Warcraft lore.
+                CSS tricks to Warcraft lore.
               </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur
@@ -49,6 +49,7 @@ class LandingPage extends Component {
                   target="_blank">
                   GitHub
                 </a>
+                &nbsp;|&nbsp;
                 <a
                   href="https://www.linkedin.com/in/anna-erkers-868738118/"
                   rel="noopener noreferrer"
@@ -58,7 +59,11 @@ class LandingPage extends Component {
                 <br />
                 anna.erkers@gmail.com
                 <br />
-                +4670 - 228 94 77
+                <a
+                  href="tel:+4670-228-94-77"
+                  rel="nofollow">
+                  +4670 - 228 94 77
+                </a>
               </p>
             </div>
           </div>
@@ -73,7 +78,7 @@ class LandingPage extends Component {
             <span className="bullet pink">&#9679;</span>
             HTML5, CSS3, Flexbox, JavaScript, ES6, JSX, React, APIs
             <span className="bullet pink">&#9679;</span>
-            2 sprints with demos at Volumental and Bonnier News
+            3 sprints with demos at Volumental, Bonnier News and Comprend
           </p>
           <div className="cases">
             <article className="case-card">
@@ -112,8 +117,54 @@ class LandingPage extends Component {
         </section>
 
         <section className="container skills">
+          <div className="skills-background-bottom" />
+          <div className="skills-background-top" />
           <h2>Skills.</h2>
-          <p>Yes hello I kind of know some things</p>
+          <div className="skill-list-wrapper">
+            <div className="skill-list">
+              <h3>
+                Coding
+              </h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript ES6</li>
+                <li>React</li>
+              </ul>
+              <h3>
+                Upcoming
+              </h3>
+              <ul>
+                <li>SASS</li>
+                <li>Node.js</li>
+                <li>Redux</li>
+                <li>anime.js</li>
+              </ul>
+            </div>
+            <div className="skill-list">
+              <h3>
+                Toolbox
+              </h3>
+              <ul>
+                <li>Atom</li>
+                <li>GitHub</li>
+                <li>Terminal</li>
+                <li>Postman</li>
+                <li>Slack</li>
+              </ul>
+            </div>
+            <div className="skill-list">
+              <h3>
+                More
+              </h3>
+              <ul>
+                <li>Agile methodology</li>
+                <li>Translation</li>
+                <li>Proof-reading</li>
+                <li>Text-production</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section className="container studies">

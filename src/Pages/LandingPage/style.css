@@ -18,30 +18,30 @@
 
 .about-me,
 .about-me-left,
-.about-me-right {
+.about-me-right,
+.skills {
   position: relative;
+}
+
+.about-me-background-bottom,
+.about-me-background-top {
+  bottom: -1.5rem;
+  height: 36.5rem;
+  position: absolute;
+  right: 0;
+  width: 40rem;
 }
 
 .about-me-background-bottom {
   background-color: var(--cream);
-  bottom: -1.5rem;
-  height: 36.5rem;
   opacity: 0.9;
-  position: absolute;
-  right: 0;
   transform: rotate(-1deg);
-  width: 40rem;
 }
 
 .about-me-background-top {
   background-color: var(--green);
-  bottom: -1rem;
-  height: 36.5rem;
   opacity: .3;
-  position: absolute;
-  right: 0;
   transform: rotate(5deg);
-  width: 40rem;
 }
 
 .about-me-left {
@@ -66,12 +66,11 @@
 .about-me-contact a {
   color: var(--black);
   font-size: 1.4rem;
-  text-decoration: none;
 }
 
-.about-me-contact a:first-child:after {
-  content: " \007C ";
-  position: relative;
+.about-me-contact a:hover,
+.about-me-contact a:focus {
+  color: var(--pink);
 }
 
 .about-me-right {
@@ -123,4 +122,42 @@
 
 .case-card img:hover ~ .centered {
   display: block;
+}
+
+.skills h3 {
+  font-family: Bitter, serif;
+  text-transform: lowercase;
+}
+
+.skill-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3.6rem;
+  padding-left: 3rem;
+}
+
+.skill-list {
+  position: relative;
+  width: 33.33%;
+}
+
+.skills-background-bottom,
+.skills-background-top {
+  bottom: 0;
+  height: 26.5rem;
+  position: absolute;
+  left: -2rem;
+  width: 60rem;
+}
+
+.skills-background-bottom {
+  background-color: var(--cream);
+  opacity: 0.9;
+  transform: rotate(-2deg);
+}
+
+.skills-background-top {
+  background-color: var(--green);
+  opacity: .3;
+  transform: rotate(4deg);
 }
