@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 import LandingPage from "./Pages/LandingPage"
+import Footer from "./Components/Footer"
+
 import "./App.css"
 
 class App extends Component {
@@ -10,7 +12,7 @@ class App extends Component {
         <div className="page-container">
           <LandingPage />
         </div>
-        <footer><h1>Yes this is footer</h1></footer>
+        <Footer />
       </div>
     )
   }
