@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import Button from "../../Components/Button"
 import "./style.css"
 
 class LandingPage extends Component {
@@ -99,7 +98,7 @@ class LandingPage extends Component {
             </article>
             <article className="case-card">
               <img src="/images/cases/case-yearbook.png" alt="" />
-              <h3 className="centered">Technigo Yearbook using HTML5 and CSS using Flexbox</h3>
+              <h3 className="centered">Technigo Yearbook using HTML5 and CSS3</h3>
             </article>
             <article className="case-card">
               <img src="/images/cases/case-form.png" alt="" />
@@ -120,12 +119,6 @@ class LandingPage extends Component {
         <section className="container studies">
           <h2>Studies.</h2>
           <p>Yes hello I used to do linguistics stuff</p>
-          <div className="buttons">
-            <Button linkTarget="https://github.com/Hilwynn" linkName="View my Github" />
-            <Button
-              linkTarget="#"
-              linkName="View my LinkedIn" />
-          </div>
         </section>
 
       </main>
