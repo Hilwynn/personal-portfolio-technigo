@@ -1,6 +1,15 @@
-.container {
+.wrapper {
   display: flex;
   flex-direction: column;
+}
+
+.heading {
+  border-bottom: 1px solid var(--grey);
+  margin-bottom: 6rem;
+}
+
+.container {
+  margin-bottom: 4rem;
 }
 
 .about-me {
@@ -18,6 +27,10 @@
   width: 80%;
 }
 
+.about-me-image img {
+  border-radius: 50%;
+}
+
 .contact {
   font-size: 1.4rem;
 }
@@ -26,7 +39,41 @@
   width: 78%;
 }
 
-.name {
-  font-size: 2rem;
-  font-style: italic;
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.cases {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.case-card {
+  margin: 2%;
+  position: relative;
+  text-align: center;
+  width: 46%;
+}
+
+.case-card img:hover {
+  filter: contrast(0) sepia(100%) hue-rotate(116deg) brightness(1.4) saturate(0.28);
+}
+
+.centered {
+  color: white;
+  display: none;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.case-card img:hover ~ .centered {
+  display: block;
 }

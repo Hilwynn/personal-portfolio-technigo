@@ -1,9 +1,9 @@
 button {
-  background-color: hsl(266, 36%, 75%);
-  border: 1px solid hsl(266, 36%, 75%);
+  background-color: var(--green);
+  border: none;
   border-radius: 2.5rem;
-  color: hsl(266, 36%, 95%);
+  color: white;
   height: 45px;
   letter-spacing: .8px;
-  width: 180px;
+  width: 160px;
 }

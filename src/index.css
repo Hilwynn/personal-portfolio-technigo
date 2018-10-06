@@ -1,6 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:300");
+@import url('https://fonts.googleapis.com/css?family=Bitter|Nunito:300,600');
 
-@font-face {
-  font-family: BigJohn;
-  src: url(/fonts/BIGJOHN.otf);
+:root {
+  --black: #0d1b1e;
+  --pink: #ceacb9;
+  --purple: #9277aa;
+  --green: #c9ded9;
+  --cream: #f1f2eb;
+  --grey: #d8dad3;
+}
+
+body {
+  font-size: 62.5%;
 }
