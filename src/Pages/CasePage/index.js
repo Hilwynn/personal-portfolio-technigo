@@ -19,7 +19,6 @@ export default class CasePage extends Component {
 
   render() {
     const { project } = this.state
-    console.log(project)
 
     return (
       <div>
