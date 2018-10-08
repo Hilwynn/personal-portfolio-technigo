@@ -1,7 +1,10 @@
 import React, { Component } from "react"
+import CasePreview from "../../Components/CasePreview"
 import "./style.css"
 
-class LandingPage extends Component {
+const casesJson = require("../../cases.json")
+
+export default class LandingPage extends Component {
   render() {
     return (
       <main className="wrapper">
@@ -81,38 +84,12 @@ class LandingPage extends Component {
             3 sprints with demos at Volumental, Bonnier News and Comprend
           </p>
           <div className="cases">
-            <article className="case-card">
-              <img src="/images/cases/case-choicemaker.png" alt="" />
-              <h3 className="centered">Random choice maker using HTML5, CSS3 and jQuery</h3>
-            </article>
-            <article className="case-card">
-              <img src="/images/cases/case-clock.png" alt="" />
-              <h3 className="centered">Simple clock built in React</h3>
-            </article>
-            <article className="case-card">
-              <img src="/images/cases/case-newspaper.png" alt="" />
-              <h3 className="centered">Newspaper layout using HTML5 and CSS3 using Flexbox</h3>
-            </article>
-            <article className="case-card">
-              <img src="/images/cases/case-weatherapp.png" alt="" />
-              <h3 className="centered">Weather app built in React using Open Weather API</h3>
-            </article>
-            <article className="case-card">
-              <img src="/images/cases/case-accordion.png" alt="" />
-              <h3 className="centered">Accordion using HTML5, CSS3 and ES6</h3>
-            </article>
-            <article className="case-card">
-              <img src="/images/cases/case-yearbook.png" alt="" />
-              <h3 className="centered">Technigo Yearbook using HTML5 and CSS3</h3>
-            </article>
-            <article className="case-card">
-              <img src="/images/cases/case-form.png" alt="" />
-              <h3 className="centered">Registration form using HTML5 and CSS3</h3>
-            </article>
-            <article className="case-card">
-              <img src="/images/cases/case-productpage.png" alt="" />
-              <h3 className="centered">Product page built in React using custom API</h3>
-            </article>
+            {casesJson.cases.map(project =>
+              <CasePreview
+                image={project.image}
+                key={project.key}
+                preview={project.preview}
+                url={project.urls.site} />)}
           </div>
         </section>
 
@@ -177,5 +154,3 @@ class LandingPage extends Component {
     )
   }
 }
-
-export default LandingPage
