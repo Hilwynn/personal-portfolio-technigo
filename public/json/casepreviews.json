@@ -1,0 +1,123 @@
+{
+  "cases": [
+  {
+    "key" : 1,
+    "title": "name",
+    "image" : "case-choicemaker.png",
+    "preview" : "Random choice maker using HTML5, CSS3 and jQuery",
+    "description" : "Lorem ipsum dolor",
+    "urls" : {
+      "site": "choicemaker",
+      "live": "path",
+      "code": "path"
+    },
+    "code": ["1", "2", "3"],
+    "toolbox": ["1", "2", "3"],
+    "more": ["1", "2", "3"]
+  },
+  {
+    "key" : 2,
+    "title": "quote1",
+    "image" : "case-clock.png",
+    "preview" : "Simple clock built in React",
+    "description" : "aut1",
+    "urls" : {
+      "site": "clock",
+      "live": "path",
+      "code": "path"
+    },
+    "code" : ["1", "2", "3"],
+    "toolbox" : ["1", "2", "3"],
+    "more" : ["1", "2", "3"]
+  },
+  {
+    "key" : 3,
+    "title": "quote1",
+    "image" : "case-newspaper.png",
+    "preview" : "Newspaper layout using HTML5 and CSS3 using Flexbox",
+    "description" : "aut1",
+    "urls" : {
+      "site": "newspaper",
+      "live": "path",
+      "code": "path"
+    },
+    "code" : ["1", "2", "3"],
+    "toolbox" : ["1", "2", "3"],
+    "more" : ["1", "2", "3"]
+  },
+  {
+    "key" : 4,
+    "title": "quote1",
+    "image" : "case-weatherapp.png",
+    "preview" : "Weather app built in React using Open Weather API",
+    "description" : "aut1",
+    "urls" : {
+      "site": "weatherapp",
+      "live": "path",
+      "code": "path"
+    },
+    "code" : ["1", "2", "3"],
+    "toolbox" : ["1", "2", "3"],
+    "more" : ["1", "2", "3"]
+  },
+  {
+    "key" : 5,
+    "title": "quote1",
+    "image" : "case-accordion.png",
+    "preview" : "Accordion using HTML5, CSS3 and ES6",
+    "description" : "aut1",
+    "urls" : {
+      "site": "accordion",
+      "live": "path",
+      "code": "path"
+    },
+    "code" : ["1", "2", "3"],
+    "toolbox" : ["1", "2", "3"],
+    "more" : ["1", "2", "3"]
+  },
+  {
+    "key" : 6,
+    "title": "quote1",
+    "image" : "case-yearbook.png",
+    "preview" : "Technigo Yearbook using HTML5 and CSS3",
+    "description" : "aut1",
+    "urls" : {
+      "site": "yearbook",
+      "live": "path",
+      "code": "path"
+    },
+    "code" : ["1", "2", "3"],
+    "toolbox" : ["1", "2", "3"],
+    "more" : ["1", "2", "3"]
+  },
+  {
+    "key" : 7,
+    "title": "quote1",
+    "image" : "case-form.png",
+    "preview" : "Registration form using HTML5 and CSS3",
+    "description" : "aut1",
+    "urls" : {
+      "site": "form",
+      "live": "path",
+      "code": "path"
+    },
+    "code" : ["1", "2", "3"],
+    "toolbox" : ["1", "2", "3"],
+    "more" : ["1", "2", "3"]
+  },
+  {
+    "key" : 8,
+    "title": "quote1",
+    "image" : "case-productpage.png",
+    "preview" : "Product page built in React using custom API",
+    "description" : "aut1",
+    "urls" : {
+      "site": "productpage",
+      "live": "path",
+      "code": "path"
+    },
+    "code" : ["1", "2", "3"],
+    "toolbox" : ["1", "2", "3"],
+    "more" : ["1", "2", "3"]
+  }
+]}

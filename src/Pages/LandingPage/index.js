@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import CasePreview from "../../Components/CasePreview"
 import "./style.css"
 
-const casesJson = require("../../cases.json")
+const casesJson = require("../../json/casepreviews.json")
 
 export default class LandingPage extends Component {
   render() {
