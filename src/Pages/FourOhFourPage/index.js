@@ -5,7 +5,7 @@ import "./style.css"
 export default class FourOhFourPage extends Component {
   render() {
     return (
-      <Link to="/" className="case-card">
+      <Link to="/">
         404
       </Link>
     )
