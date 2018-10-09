@@ -89,7 +89,7 @@ export default class LandingPage extends Component {
               <CasePreview
                 image={project.image}
                 key={project.key}
-                preview={project.preview}
+                title={project.title}
                 url={project.urls.site} />)}
           </div>
         </section>
@@ -137,6 +137,7 @@ export default class LandingPage extends Component {
                 More
               </h3>
               <ul>
+                <li>Concept development</li>
                 <li>Agile methodology</li>
                 <li>Translation</li>
                 <li>Proof-reading</li>

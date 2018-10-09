@@ -2,10 +2,9 @@
   "cases": [
   {
     "key" : 1,
-    "title": "Choice-maker",
+    "title": "Random choice maker using HTML5, CSS3 and jQuery",
     "image" : "case-choicemaker.png",
-    "preview" : "Random choice maker using HTML5, CSS3 and jQuery",
-    "description" : "Lorem ipsum dolor",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac odio tempor orci. Est ultricies integer quis auctor elit sed. Nisl tincidunt eget nullam non nisi est sit amet facilisis.",
     "urls" : {
       "site": "choicemaker",
       "live": "path",
@@ -17,9 +16,8 @@
   },
   {
     "key" : 2,
-    "title": "Clock",
+    "title": "Simple clock built in React",
     "image" : "case-clock.png",
-    "preview" : "Simple clock built in React",
     "description" : "aut1",
     "urls" : {
       "site": "clock",
@@ -32,9 +30,8 @@
   },
   {
     "key" : 3,
-    "title": "quote1",
+    "title": "Newspaper layout using HTML5 and CSS3",
     "image" : "case-newspaper.png",
-    "preview" : "Newspaper layout using HTML5 and CSS3 using Flexbox",
     "description" : "aut1",
     "urls" : {
       "site": "newspaper",
@@ -47,9 +44,8 @@
   },
   {
     "key" : 4,
-    "title": "quote1",
+    "title": "Weather app built in React using Open Weather API",
     "image" : "case-weatherapp.png",
-    "preview" : "Weather app built in React using Open Weather API",
     "description" : "aut1",
     "urls" : {
       "site": "weatherapp",
@@ -62,9 +58,8 @@
   },
   {
     "key" : 5,
-    "title": "quote1",
+    "title": "Accordion using HTML5, CSS3 and ES6",
     "image" : "case-accordion.png",
-    "preview" : "Accordion using HTML5, CSS3 and ES6",
     "description" : "aut1",
     "urls" : {
       "site": "accordion",
@@ -77,9 +72,8 @@
   },
   {
     "key" : 6,
-    "title": "quote1",
+    "title": "Technigo Yearbook using HTML5 and CSS3",
     "image" : "case-yearbook.png",
-    "preview" : "Technigo Yearbook using HTML5 and CSS3",
     "description" : "aut1",
     "urls" : {
       "site": "yearbook",
@@ -92,9 +86,8 @@
   },
   {
     "key" : 7,
-    "title": "quote1",
+    "title": "Registration form using HTML5 and CSS3",
     "image" : "case-form.png",
-    "preview" : "Registration form using HTML5 and CSS3",
     "description" : "aut1",
     "urls" : {
       "site": "form",
@@ -107,9 +100,8 @@
   },
   {
     "key" : 8,
-    "title": "quote1",
+    "title": "Product page built in React using custom API",
     "image" : "case-productpage.png",
-    "preview" : "Product page built in React using custom API",
     "description" : "aut1",
     "urls" : {
       "site": "productpage",

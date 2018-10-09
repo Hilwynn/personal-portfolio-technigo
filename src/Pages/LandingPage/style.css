@@ -8,6 +8,11 @@
   margin-bottom: 6rem;
 }
 
+.heading h1 {
+  font-size: 10rem;
+  margin: 0 0 2rem 2rem;
+}
+
 .container {
   margin-bottom: 4rem;
 }
@@ -125,16 +130,16 @@
   display: block;
 }
 
-.skills h3 {
-  font-family: Bitter, serif;
-  text-transform: lowercase;
-}
-
 .skill-list-wrapper {
   display: flex;
   flex-wrap: wrap;
   margin-top: 3.6rem;
   padding-left: 3rem;
+}
+
+.skill-list-wrapper h3 {
+  font-family: Bitter, serif;
+  text-transform: lowercase;
 }
 
 .skill-list {

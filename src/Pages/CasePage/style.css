@@ -1,0 +1,63 @@
+.navigation {
+  margin-bottom: 2rem;
+}
+
+.case h1 {
+  font-size: 3.6rem;
+  line-height: 4rem;
+  margin: 0 0 2rem 2rem;
+}
+
+.case img {
+  margin-bottom: 1rem;
+}
+
+.intro {
+  width: 75%;
+}
+
+.tech {
+  position: relative;
+}
+
+.tech-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3.6rem;
+  padding-left: 3rem;
+}
+
+.tech-list-wrapper h3 {
+  font-family: Bitter, serif;
+  text-transform: lowercase;
+}
+
+.tech-list {
+  position: relative;
+  width: 33.33%;
+}
+
+.tech-list li {
+  padding-left: .3rem;
+}
+
+.tech-background-bottom,
+.tech-background-top {
+  bottom: 0;
+  height: 14rem;
+  position: absolute;
+  left: -2rem;
+  width: 60rem;
+}
+
+.tech-background-bottom {
+  background-color: var(--cream);
+  opacity: 0.9;
+  transform: rotate(-2deg);
+}
+
+.tech-background-top {
+  background-color: var(--green);
+  opacity: .3;
+  transform: rotate(4deg);
+}
