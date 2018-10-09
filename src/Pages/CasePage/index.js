@@ -22,7 +22,7 @@ export default class CasePage extends Component {
         </nav>
         <section className="case">
           <h1>{project.title}.</h1>
-          
+
           <img src={`/images/cases/${project.image}`} alt={`Screenshot of ${project.title}`} />
 
           <div className="intro">
@@ -31,7 +31,7 @@ export default class CasePage extends Component {
           <p>See it live</p>
           <p>View code</p>
 
-          <div className="tech">
+          <div className="tech-container">
             <div className="tech-background-bottom" />
             <div className="tech-background-top" />
             <h2>Tech.</h2>

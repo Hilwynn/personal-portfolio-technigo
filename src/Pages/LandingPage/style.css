@@ -91,6 +91,11 @@
   justify-content: space-around;
 }
 
+.tech  {
+  /* IE11 fix */
+  min-height: 1px;
+}
+
 .tech p {
   font-size: 1.8rem;
   line-height: 3rem;
@@ -106,10 +111,10 @@
 }
 
 .case-card {
-  margin: 2%;
+  margin: 1rem;
   position: relative;
   text-align: center;
-  width: 46%;
+  width: calc(50% - 2rem);
 }
 
 .case-card img:hover {
