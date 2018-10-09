@@ -2,24 +2,11 @@ import React, { Component } from "react"
 import CasePreview from "../../Components/CasePreview"
 import "./style.css"
 
-export default class LandingPage extends Component {
-  state = {
-    casesJson: []
-  }
+const casesJson = require("../../cases.json")
 
-  componentDidMount() {
-    const apiUrl = "/json/casepreviews.json"
-    fetch(apiUrl).then(response => response.json()).then(json => {
-      this.setState({
-        casesJson: json.cases
-      })
-    })
-  }
+export default class LandingPage extends Component {
 
   render() {
-    const { casesJson } = this.state
-    console.log(casesJson)
-
     return (
       <main className="wrapper">
 
@@ -98,7 +85,7 @@ export default class LandingPage extends Component {
             3 sprints with demos at Volumental, Bonnier News and Comprend
           </p>
           <div className="cases">
-            {casesJson.map(project =>
+            {casesJson.cases.map(project =>
               <CasePreview
                 image={project.image}
                 key={project.key}

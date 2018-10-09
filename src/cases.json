@@ -2,7 +2,7 @@
   "cases": [
   {
     "key" : 1,
-    "title": "name",
+    "title": "Choice-maker",
     "image" : "case-choicemaker.png",
     "preview" : "Random choice maker using HTML5, CSS3 and jQuery",
     "description" : "Lorem ipsum dolor",
@@ -17,7 +17,7 @@
   },
   {
     "key" : 2,
-    "title": "quote1",
+    "title": "Clock",
     "image" : "case-clock.png",
     "preview" : "Simple clock built in React",
     "description" : "aut1",

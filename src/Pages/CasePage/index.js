@@ -2,23 +2,18 @@ import React, { Component } from "react"
 import { Link } from "react-router-dom"
 import "./style.css"
 
-export default class CasePage extends Component {
-  state = {
-    project: {}
-  }
+const casesJson = require("../../cases.json")
 
-  componentDidMount() {
-    const { path } = this.props.match.params
-    const apiUrl = `/json/${path}.json`
-    fetch(apiUrl).then(response => response.json()).then(json => {
-      this.setState({
-        project: json
-      })
-    })
-  }
+export default class CasePage extends Component {
 
   render() {
-    const { project } = this.state
+    const { path } = this.props.match.params
+    let project = {}
+    casesJson.cases.forEach(item => {
+      if (item.urls.site === path) {
+        project = item
+      }
+    })
 
     return (
       <div>
