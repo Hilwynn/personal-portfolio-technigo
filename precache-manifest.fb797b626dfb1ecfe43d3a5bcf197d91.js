@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/personal-portfolio-technigo/static/css/main.4ff41870.chunk.css"
   },
   {
-    "revision": "c3eacd7e865d0b2b419098b7d22f1a09",
+    "revision": "64b721d56ddacbaad49f56f705fc6c34",
     "url": "/personal-portfolio-technigo/index.html"
   }
 ];
