@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/personal-portfolio-technigo/precache-manifest.1589480a5ac07cbb8635cf989ab6ac1d.js"
+  "/personal-portfolio-technigo/precache-manifest.5223fea9deba587c0d84217d06630d54.js"
 );
 
 workbox.clientsClaim();
