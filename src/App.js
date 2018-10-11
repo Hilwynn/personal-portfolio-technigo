@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
 import LandingPage from "./Pages/LandingPage"
 import CasePage from "./Pages/CasePage"
 import FourOhFourPage from "./Pages/FourOhFourPage"
