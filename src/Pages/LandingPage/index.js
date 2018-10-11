@@ -21,7 +21,7 @@ export default class LandingPage extends Component {
           <div className="about-me-background-top" />
           <div className="about-me-left">
             <div className="about-me-image">
-              <img src="/images/portrait.png" alt="Anna Erkers" />
+              <img src="%PUBLIC_URL%/images/portrait.png" alt="Anna Erkers" />
             </div>
           </div>
           <div className="about-me-right">

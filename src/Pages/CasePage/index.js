@@ -23,7 +23,7 @@ export default class CasePage extends Component {
         <section className="case">
           <h1>{project.title}.</h1>
 
-          <img src={`/images/cases/${project.image}`} alt={`Screenshot of ${project.title}`} />
+          <img src={`%PUBLIC_URL%/images/cases/${project.image}`} alt={`Screenshot of ${project.title}`} />
 
           <div className="intro">
             <p>{project.description}</p>
