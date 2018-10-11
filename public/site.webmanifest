@@ -1,0 +1,14 @@
+{
+    "name": "Anna Erkers",
+    "short_name": "Anna Erkers",
+    "icons": [
+        {
+            "src": "/android-chrome-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ceacb9",
+    "background_color": "#ceacb9",
+    "display": "standalone"
+}

@@ -12,7 +12,7 @@ export default class CasePreview extends Component {
     return (
       <Link to={`/case/${url}`} className="case-card">
         <article>
-          <img src={`/images/cases/${image}`} alt={title} />
+          <img src={`${process.env.PUBLIC_URL}/images/cases/${image}`} alt={title} />
           <h3 className="centered">{title}</h3>
         </article>
       </Link>
