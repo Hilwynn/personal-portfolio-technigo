@@ -108,12 +108,12 @@ export default class LandingPage extends Component {
                 <li>CSS3</li>
                 <li>JavaScript ES6</li>
                 <li>React</li>
+                <li>SASS</li>
               </ul>
               <h3>
                 Upcoming
               </h3>
               <ul>
-                <li>SASS</li>
                 <li>Node.js</li>
                 <li>Redux</li>
                 <li>Grid</li>
@@ -130,6 +130,7 @@ export default class LandingPage extends Component {
                 <li>Terminal</li>
                 <li>Postman</li>
                 <li>Slack</li>
+                <li>Trello</li>
               </ul>
             </div>
             <div className="skill-list">
