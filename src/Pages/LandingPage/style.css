@@ -191,7 +191,7 @@
   .skills-background-bottom,
   .skills-background-top  {
     position: absolute;
-    width: 27rem;
+    width: calc(100% - 2rem);
   }
   .about-me-background-bottom,
   .about-me-background-top {
@@ -211,10 +211,10 @@
   }
   .about-me-image {
     padding-bottom: 2rem;
-    width: 80%;
+    width: 25rem;
   }
   .about-me-bio {
-    padding: 2.8rem 2.8rem 0;
+    padding: 2rem 2.8rem 0;
   }
   .case-card {
     width: calc(100% - 2rem);
