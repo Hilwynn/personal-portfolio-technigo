@@ -33,17 +33,17 @@ export default class LandingPage extends Component {
               <p>
                 Hello! I&apos;m a linguistics
                 enthusiast with a knack for
-                problem-solving and falling down google
-                holes in search of everything from cool
-                CSS tricks to Warcraft lore.
+                problem-solving and falling down
+                google holes in search of
+                everything from cool CSS tricks
+                to Warcraft lore.
               </p>
               <p>
                 The Internet has been my second
                 home for nearly 20 years and as a
-                web developer my goals is to
+                web developer my goal is to
                 create an engaging and accessible
-                experience for my cyber
-                neighbours.
+                experience for my fellow netizens.
               </p>
             </div>
             <div className="about-me-contact">
@@ -101,9 +101,7 @@ export default class LandingPage extends Component {
           <h2>Skills.</h2>
           <div className="skill-list-wrapper">
             <div className="skill-list">
-              <h3>
-                Coding
-              </h3>
+              <h3>Coding</h3>
               <ul>
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -111,20 +109,9 @@ export default class LandingPage extends Component {
                 <li>React</li>
                 <li>SASS</li>
               </ul>
-              <h3>
-                Upcoming
-              </h3>
-              <ul>
-                <li>Node.js</li>
-                <li>Redux</li>
-                <li>Grid</li>
-                <li>anime.js</li>
-              </ul>
             </div>
             <div className="skill-list">
-              <h3>
-                Toolbox
-              </h3>
+              <h3>Toolbox</h3>
               <ul>
                 <li>Atom</li>
                 <li>GitHub</li>
@@ -135,15 +122,22 @@ export default class LandingPage extends Component {
               </ul>
             </div>
             <div className="skill-list">
-              <h3>
-                More
-              </h3>
+              <h3>More</h3>
               <ul>
                 <li>Concept development</li>
                 <li>Agile methodology</li>
                 <li>Translation</li>
                 <li>Proof-reading</li>
                 <li>Text-production</li>
+              </ul>
+            </div>
+            <div className="skill-list">
+              <h3>Upcoming</h3>
+              <ul>
+                <li>Node.js</li>
+                <li>Redux</li>
+                <li>Grid</li>
+                <li>anime.js</li>
               </ul>
             </div>
           </div>
