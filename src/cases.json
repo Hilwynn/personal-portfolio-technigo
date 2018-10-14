@@ -16,7 +16,7 @@
   },
   {
     "key" : 2,
-    "title": "Weather Chrome Extension built using Open Weather API",
+    "title": "Weather Chrome Extension using the Open Weather API",
     "image" : "case-weatherapp.png",
     "description" : "Weather app for the cities of Stockholm, Gothenburg and Malmoe using information from the Open Weather API. The background changes colour depending on the current temperature. Optimized for desktop.",
     "urls" : {
@@ -30,30 +30,30 @@
   },
   {
     "key" : 3,
-    "title": "Registration form using HTML5 and CSS3",
+    "title": "Registration form built in HTML5 and CSS3",
     "image" : "case-form.png",
-    "description" : "aut1",
+    "description" : "Registration form built as an exercise in re-creating an already existing form. Desktop optimized.",
     "urls" : {
       "site": "form",
       "live": "path",
       "code": "path"
     },
-    "code" : ["1", "2", "3"],
-    "toolbox" : ["1", "2", "3"],
-    "more" : ["1", "2", "3"]
+    "code" : ["HTML5", "CSS3"],
+    "toolbox" : ["Atom", "GitHub"],
+    "more" : ["Concept Development", "Agile methodology"]
   },
   {
     "key" : 4,
-    "title": "Product page built in React using custom API",
+    "title": "Product page built with React using a custom API",
     "image" : "case-productpage.png",
-    "description" : "aut1",
+    "description" : "Product page built in React using a custom JSON file of products. The page is fully responsive with media queries for mobile and tablet.",
     "urls" : {
       "site": "productpage",
       "live": "path",
       "code": "path"
     },
-    "code" : ["1", "2", "3"],
-    "toolbox" : ["1", "2", "3"],
-    "more" : ["1", "2", "3"]
+    "code" : ["HTML5", "CSS3", "ES6", "React", "Custom API"],
+    "toolbox" : ["Atom", "GitHub"],
+    "more" : ["Concept Development", "Agile methodology"]
   }
 ]}
