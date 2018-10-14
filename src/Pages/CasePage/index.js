@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "react-router-dom"
+import ListItem from "../../Components/ListItem"
 import "./style.css"
 
 const casesJson = require("../../cases.json")
@@ -32,6 +33,39 @@ export default class CasePage extends Component {
             <p>{project.description}</p>
           </div>
 
+          <div className="tech-container">
+            <h2>Tech Specs.</h2>
+            <div className="tech-list-wrapper">
+              <div className="tech-list">
+                <h3>
+                  Code
+                </h3>
+                <ul>
+                  {project.code.map(item =>
+                    <ListItem key={item} item={item} />)}
+                </ul>
+              </div>
+              <div className="tech-list">
+                <h3>
+                  Toolbox
+                </h3>
+                <ul>
+                  {project.toolbox.map(item =>
+                    <ListItem key={item} item={item} />)}
+                </ul>
+              </div>
+              <div className="tech-list">
+                <h3>
+                  More
+                </h3>
+                <ul>
+                  {project.more.map(item =>
+                    <ListItem key={item} item={item} />)}
+                </ul>
+              </div>
+            </div>
+          </div>
+
           <div className="link-icons">
             <a
               href={project.urls.live}
@@ -49,44 +83,6 @@ export default class CasePage extends Component {
             </a>
           </div>
 
-          <div className="tech-container">
-            <div className="tech-background-bottom" />
-            <div className="tech-background-top" />
-            <h2>Tech Specs.</h2>
-            <div className="tech-list-wrapper">
-              <div className="tech-list">
-                <h3>
-                  Code
-                </h3>
-                <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>JavaScript ES6</li>
-                  <li>React</li>
-                </ul>
-              </div>
-              <div className="tech-list">
-                <h3>
-                  Toolbox
-                </h3>
-                <ul>
-                  <li>Atom</li>
-                  <li>GitHub</li>
-                  <li>Terminal</li>
-                  <li>Slack</li>
-                </ul>
-              </div>
-              <div className="tech-list">
-                <h3>
-                  More
-                </h3>
-                <ul>
-                  <li>Concept development</li>
-                  <li>Agile methodology</li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </section>
       </main>
     )

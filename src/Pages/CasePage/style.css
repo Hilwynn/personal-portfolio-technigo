@@ -19,36 +19,19 @@
 }
 
 .case img {
+  border: .1rem solid var(--grey);
   margin-bottom: 1rem;
 }
 
 .intro {
+  margin-bottom: 4rem;
   width: 75%;
-}
-
-.link-icons {
-  margin-bottom: 6rem;
-}
-
-.link-icons i {
-  color: #000;
-  cursor: pointer;
-  font-size: 3rem;
-  margin: 0 .5rem;
-}
-
-.link-icons i:hover {
-  color: var(--pink);
-}
-
-.tech-container {
-  position: relative;
 }
 
 .tech-list-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 3.6rem;
+  margin-top: 2rem;
   padding-left: 3rem;
 }
 
@@ -66,23 +49,29 @@
   padding-left: .3rem;
 }
 
-.tech-background-bottom,
-.tech-background-top {
-  bottom: 0;
-  height: 14rem;
-  position: absolute;
-  left: -2rem;
-  width: 60rem;
+.link-icons {
+  margin-top: 3rem;
+  text-align: center;
 }
 
-.tech-background-bottom {
-  background-color: var(--cream);
-  opacity: 0.9;
-  transform: rotate(-2deg);
+.link-icons i {
+  color: #000;
+  cursor: pointer;
+  font-size: 5rem;
+  margin: 0 1.5rem;
 }
 
-.tech-background-top {
-  background-color: var(--green);
-  opacity: .3;
-  transform: rotate(4deg);
+.link-icons a:focus > i,
+.link-icons a:hover > i {
+  color: var(--pink);
 }
+
+@media screen and (max-width: 600px) {
+  .intro,
+  .tech-list {
+    width: 100%;
+  }
+  .tech-list-wrapper {
+    padding-left: 2rem;
+  }
+  }
