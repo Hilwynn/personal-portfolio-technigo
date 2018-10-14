@@ -15,7 +15,7 @@ export default class App extends Component {
             <Switch>
               <Route exact path="/" component={LandingPage} />
               <Route exact path="/case/:path" component={CasePage} />
-              <Route component={FourOhFourPage} />
+              <Route exact path="*" component={FourOhFourPage} />
             </Switch>
           </div>
           <Footer />
