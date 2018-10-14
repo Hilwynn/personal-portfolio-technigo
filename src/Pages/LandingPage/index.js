@@ -38,7 +38,12 @@ export default class LandingPage extends Component {
                 CSS tricks to Warcraft lore.
               </p>
               <p>
-                The Internet has been my second home for nearly 20 years and as a web developer my goals is to create an engaging and accessible experience for my cyber neighbours.
+                The Internet has been my second
+                home for nearly 20 years and as a
+                web developer my goals is to
+                create an engaging and accessible
+                experience for my cyber
+                neighbours.
               </p>
             </div>
             <div className="about-me-contact">
@@ -72,7 +77,7 @@ export default class LandingPage extends Component {
         <section className="container tech">
           <h2>Tech.</h2>
           <p>
-            200+ hours of coding
+            240+ hours of coding
             <span className="bullet pink">&#9679;</span>
             15 individual tasks
             <span className="bullet pink">&#9679;</span>
@@ -123,7 +128,7 @@ export default class LandingPage extends Component {
               <ul>
                 <li>Atom</li>
                 <li>GitHub</li>
-                <li>Terminal</li>
+                <li>Command Line</li>
                 <li>Postman</li>
                 <li>Slack</li>
                 <li>Trello</li>
