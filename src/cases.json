@@ -2,11 +2,11 @@
   "cases": [
   {
     "key" : 1,
-    "title": "Random choice maker using HTML5, CSS3 and jQuery",
-    "image" : "case-choicemaker.png",
+    "title": "Radio player built on API from Sveriges Radio",
+    "image" : "case-radioplayer.png",
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac odio tempor orci. Est ultricies integer quis auctor elit sed. Nisl tincidunt eget nullam non nisi est sit amet facilisis.",
     "urls" : {
-      "site": "choicemaker",
+      "site": "radioplayer",
       "live": "path",
       "code": "path"
     },
@@ -72,20 +72,6 @@
   },
   {
     "key" : 6,
-    "title": "Technigo Yearbook using HTML5 and CSS3",
-    "image" : "case-yearbook.png",
-    "description" : "aut1",
-    "urls" : {
-      "site": "yearbook",
-      "live": "path",
-      "code": "path"
-    },
-    "code" : ["1", "2", "3"],
-    "toolbox" : ["1", "2", "3"],
-    "more" : ["1", "2", "3"]
-  },
-  {
-    "key" : 7,
     "title": "Registration form using HTML5 and CSS3",
     "image" : "case-form.png",
     "description" : "aut1",
@@ -99,7 +85,7 @@
     "more" : ["1", "2", "3"]
   },
   {
-    "key" : 8,
+    "key" : 7,
     "title": "Product page built in React using custom API",
     "image" : "case-productpage.png",
     "description" : "aut1",
@@ -111,5 +97,19 @@
     "code" : ["1", "2", "3"],
     "toolbox" : ["1", "2", "3"],
     "more" : ["1", "2", "3"]
+  },
+  {
+    "key" : 8,
+    "title": "Random choice maker using HTML5, CSS3 and jQuery",
+    "image" : "case-choicemaker.png",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac odio tempor orci. Est ultricies integer quis auctor elit sed. Nisl tincidunt eget nullam non nisi est sit amet facilisis.",
+    "urls" : {
+      "site": "choicemaker",
+      "live": "path",
+      "code": "path"
+    },
+    "code": ["1", "2", "3"],
+    "toolbox": ["1", "2", "3"],
+    "more": ["1", "2", "3"]
   }
 ]}
