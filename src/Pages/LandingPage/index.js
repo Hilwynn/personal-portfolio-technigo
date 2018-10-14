@@ -175,7 +175,12 @@ export default class LandingPage extends Component {
               <h3>Stockholm University</h3>
               <h4>Stockholm, 2007 - 2012</h4>
               <p>
-                Swedish, English, Literature, Linguistics and Translation Theory over a span of five years.
+                Studies in the fields of Swedish
+                and English literature and
+                linguistics, as well as
+                Translation Theory with a focus
+                on translation from English to
+                Swedish.
               </p>
             </div>
           </div>
