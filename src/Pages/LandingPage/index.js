@@ -26,7 +26,7 @@ export default class LandingPage extends Component {
           </div>
           <div className="about-me-right">
             <h2>
-              Frontend Developer <br />
+              Front-end Developer <br />
               + Translator
             </h2>
             <div className="about-me-bio">
@@ -38,11 +38,7 @@ export default class LandingPage extends Component {
                 CSS tricks to Warcraft lore.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna
-                aliqua. Duis at tellus at urna
-                condimentum.
+                The Internet has been my second home for nearly 20 years and as a web developer my goals is to create an engaging and accessible experience for my cyber neighbours.
               </p>
             </div>
             <div className="about-me-contact">
@@ -150,7 +146,39 @@ export default class LandingPage extends Component {
 
         <section className="container studies">
           <h2>Studies.</h2>
-          <p>Yes hello I used to do linguistics stuff</p>
+          <div className="studies-wrapper">
+            <div className="studies-section">
+              <h3>Technigo</h3>
+              <h4>Stockholm, Sep - Nov 2018</h4>
+              <p>
+                Full-time twelve-week intensive
+                programme in front-end development. Covering everything
+                from basic web development skills
+                to structuring and building
+                larger projects. Main focus on
+                JavaScript and React. Total of
+                480 coding hours and 6 sprints at
+                companies such as Bonnier News and Volumental.
+              </p>
+            </div>
+            <div className="studies-section">
+              <h3>Tjejer kodar</h3>
+              <h4>Stockholm, Feb - Mar 2018</h4>
+              <p>
+                One-week online web development
+                course with aim to build a
+                random choice maker using HTML5,
+                CSS3 and jQuery.
+              </p>
+            </div>
+            <div className="studies-section">
+              <h3>Stockholm University</h3>
+              <h4>Stockholm, 2007 - 2012</h4>
+              <p>
+                Swedish, English, Literature, Linguistics and Translation Theory over a span of five years.
+              </p>
+            </div>
+          </div>
         </section>
 
       </main>
