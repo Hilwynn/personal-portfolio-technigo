@@ -44,7 +44,7 @@ export default class CasePage extends Component {
               href={project.urls.code}
               rel="noopener noreferrer"
               target="_blank"
-              title="Code on GitHub">
+              title="See the code on GitHub">
               <i className="fab fa-github" />
             </a>
           </div>
