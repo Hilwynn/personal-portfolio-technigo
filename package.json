@@ -2,7 +2,7 @@
   "name": "personal-portfolio-technigo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.annaerkers.com",
+  "homepage": "http://www.annaerkers.com",
   "dependencies": {
     "ajv": "^6.5.4",
     "babel-eslint": "^9.0.0",
