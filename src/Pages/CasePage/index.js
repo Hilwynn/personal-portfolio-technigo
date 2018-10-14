@@ -28,13 +28,28 @@ export default class CasePage extends Component {
           <div className="intro">
             <p>{project.description}</p>
           </div>
-          <p>See it live</p>
-          <p>View code</p>
+
+          <div className="link-icons">
+            <a
+              href={project.urls.live}
+              rel="noopener noreferrer"
+              target="_blank"
+              title="See it live">
+              <i className="fas fa-desktop" />
+            </a>
+            <a
+              href={project.urls.code}
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Code on GitHub">
+              <i className="fab fa-github" />
+            </a>
+          </div>
 
           <div className="tech-container">
             <div className="tech-background-bottom" />
             <div className="tech-background-top" />
-            <h2>Tech.</h2>
+            <h2>Tech Specs.</h2>
             <div className="tech-list-wrapper">
               <div className="tech-list">
                 <h3>

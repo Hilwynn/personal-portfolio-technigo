@@ -17,6 +17,21 @@
   width: 75%;
 }
 
+.link-icons {
+  margin-bottom: 6rem;
+}
+
+.link-icons i {
+  color: #000;
+  cursor: pointer;
+  font-size: 3rem;
+  margin: 0 .5rem;
+}
+
+.link-icons i:hover {
+  color: var(--pink);
+}
+
 .tech-container {
   position: relative;
 }
