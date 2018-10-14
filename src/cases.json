@@ -2,49 +2,21 @@
   "cases": [
   {
     "key" : 1,
-    "title": "Radio player built on API from Sveriges Radio",
+    "title": "Radio player using the Sveriges Radio API",
     "image" : "case-radioplayer.png",
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac odio tempor orci. Est ultricies integer quis auctor elit sed. Nisl tincidunt eget nullam non nisi est sit amet facilisis.",
+    "description" : "Searchable radio hub using channels from the Sveriges Radio API. The search function is case-insensitive and the page itself is fully responsive with media queries for mobile and tablet.",
     "urls" : {
       "site": "radioplayer",
       "live": "path",
       "code": "path"
     },
-    "code": ["1", "2", "3"],
-    "toolbox": ["1", "2", "3"],
-    "more": ["1", "2", "3"]
+    "code": ["HTML5", "CSS3", "ES6", "React", "External API"],
+    "toolbox": ["Atom", "GitHub"],
+    "more": ["Concept Development", "Agile methodology"]
   },
   {
     "key" : 2,
-    "title": "Simple clock built in React",
-    "image" : "case-clock.png",
-    "description" : "aut1",
-    "urls" : {
-      "site": "clock",
-      "live": "path",
-      "code": "path"
-    },
-    "code" : ["1", "2", "3"],
-    "toolbox" : ["1", "2", "3"],
-    "more" : ["1", "2", "3"]
-  },
-  {
-    "key" : 3,
-    "title": "Newspaper layout using HTML5 and CSS3",
-    "image" : "case-newspaper.png",
-    "description" : "aut1",
-    "urls" : {
-      "site": "newspaper",
-      "live": "path",
-      "code": "path"
-    },
-    "code" : ["1", "2", "3"],
-    "toolbox" : ["1", "2", "3"],
-    "more" : ["1", "2", "3"]
-  },
-  {
-    "key" : 4,
-    "title": "Weather app built in React using Open Weather API",
+    "title": "Weather Chrome Extension built using Open Weather API",
     "image" : "case-weatherapp.png",
     "description" : "aut1",
     "urls" : {
@@ -52,26 +24,12 @@
       "live": "path",
       "code": "path"
     },
-    "code" : ["1", "2", "3"],
-    "toolbox" : ["1", "2", "3"],
-    "more" : ["1", "2", "3"]
+    "code" : ["HTML5", "CSS3", "ES6", "External API"],
+    "toolbox" : ["Atom", "GitHub"],
+    "more" : ["Concept Development", "Agile methodology"]
   },
   {
-    "key" : 5,
-    "title": "Accordion using HTML5, CSS3 and ES6",
-    "image" : "case-accordion.png",
-    "description" : "aut1",
-    "urls" : {
-      "site": "accordion",
-      "live": "path",
-      "code": "path"
-    },
-    "code" : ["1", "2", "3"],
-    "toolbox" : ["1", "2", "3"],
-    "more" : ["1", "2", "3"]
-  },
-  {
-    "key" : 6,
+    "key" : 3,
     "title": "Registration form using HTML5 and CSS3",
     "image" : "case-form.png",
     "description" : "aut1",
@@ -85,7 +43,7 @@
     "more" : ["1", "2", "3"]
   },
   {
-    "key" : 7,
+    "key" : 4,
     "title": "Product page built in React using custom API",
     "image" : "case-productpage.png",
     "description" : "aut1",
@@ -97,19 +55,5 @@
     "code" : ["1", "2", "3"],
     "toolbox" : ["1", "2", "3"],
     "more" : ["1", "2", "3"]
-  },
-  {
-    "key" : 8,
-    "title": "Random choice maker using HTML5, CSS3 and jQuery",
-    "image" : "case-choicemaker.png",
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia quis vel eros donec ac odio tempor orci. Est ultricies integer quis auctor elit sed. Nisl tincidunt eget nullam non nisi est sit amet facilisis.",
-    "urls" : {
-      "site": "choicemaker",
-      "live": "path",
-      "code": "path"
-    },
-    "code": ["1", "2", "3"],
-    "toolbox": ["1", "2", "3"],
-    "more": ["1", "2", "3"]
   }
 ]}
