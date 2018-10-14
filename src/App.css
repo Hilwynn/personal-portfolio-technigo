@@ -1,5 +1,4 @@
 a {
-  outline: none;
   text-decoration: none;
 }
 
@@ -66,4 +65,11 @@ p, ul {
 
 .purple {
   color: var(--purple);
+}
+
+@media screen and (max-width: 600px) {
+  .page-container {
+    margin: 3rem auto;
+    width: 90%;
+  }
 }

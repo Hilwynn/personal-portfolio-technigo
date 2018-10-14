@@ -50,7 +50,6 @@
 }
 
 .about-me-left {
-  display: flex;
   margin: 2rem 1.5rem 0;
 }
 
@@ -84,11 +83,6 @@
 
 .about-me-bio {
   padding: 1.5rem 2.8rem 0 0;
-}
-
-.buttons {
-  display: flex;
-  justify-content: space-around;
 }
 
 .tech  {
@@ -163,7 +157,7 @@
 .skills-background-bottom,
 .skills-background-top {
   bottom: 0;
-  height: 29rem;
+  height: 31.5rem;
   position: absolute;
   left: -2rem;
   width: 60rem;
@@ -183,4 +177,64 @@
 
 .studies-wrapper {
   margin-top: 3.6rem;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    margin-bottom: 0;
+  }
+  .heading h1 {
+    font-size: 7rem;
+  }
+  .about-me-background-bottom,
+  .about-me-background-top,
+  .skills-background-bottom,
+  .skills-background-top  {
+    position: absolute;
+    width: 27rem;
+  }
+  .about-me-background-bottom,
+  .about-me-background-top {
+    height: 40rem;
+    right: 1rem;
+  }
+  .about-me {
+    flex-wrap: wrap;
+  }
+  .about-me-left,
+  .about-me-right {
+    width: 100%;
+  }
+  .about-me-left {
+    display: flex;
+    justify-content: center;
+  }
+  .about-me-image {
+    padding-bottom: 2rem;
+    width: 80%;
+  }
+  .about-me-bio {
+    padding: 2.8rem 2.8rem 0;
+  }
+  .case-card {
+    width: calc(100% - 2rem);
+  }
+  .skills-background-bottom,
+  .skills-background-top {
+  height: 60.5rem;
+  left: 1rem;
+  }
+  .skill-list-wrapper,
+  .studies-wrapper {
+    margin-top: 2rem;
+  }
+  .skill-list-wrapper {
+    padding-left: 5rem;
+  }
+  .studies-wrapper {
+    padding-left: 1rem;
+  }
+  .skill-list {
+    width: 100%;
+  }
 }
