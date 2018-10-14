@@ -5,6 +5,9 @@ import "./style.css"
 const casesJson = require("../../cases.json")
 
 export default class CasePage extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
 
   render() {
     const { path } = this.props.match.params
