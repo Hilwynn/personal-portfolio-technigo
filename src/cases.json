@@ -7,7 +7,7 @@
     "description" : "Searchable radio hub using channels from the Sveriges Radio API. The search function is case-insensitive and the page itself is fully responsive with media queries for mobile and tablet.",
     "urls" : {
       "site": "radioplayer",
-      "live": "path",
+      "live": "https://hilwynn.github.io/radio-player",
       "code": "https://github.com/Hilwynn/radio-player"
     },
     "code": ["HTML5", "CSS3", "ES6", "React", "External API"],
@@ -34,7 +34,7 @@
     "image" : "case-form.png",
     "description" : "Registration form built as an exercise in re-creating an already existing form. Desktop optimized.",
     "urls" : {
-      "site": "form",
+      "site": "registrationform",
       "live": "https://hilwynn.github.io/registration-form",
       "code": "https://github.com/Hilwynn/registration-form"
     },
@@ -63,7 +63,7 @@
     "description" : "Newspaper layout for a fictional cat news site. Fully responsive.",
     "urls" : {
       "site": "newspaper",
-      "live": "path",
+      "live": "https://hilwynn.github.io/newspaper-layout",
       "code": "https://github.com/Hilwynn/newspaper-layout"
     },
     "code" : ["HTML5", "CSS3"],
@@ -77,7 +77,7 @@
     "description" : "A simple FAQ accordion using JavaScript to create smooth opening och closing animations. Fully responsive.",
     "urls" : {
       "site": "accordion",
-      "live": "path",
+      "live": "https://hilwynn.github.io/animated-accordion",
       "code": "https://github.com/Hilwynn/animated-accordion"
     },
     "code" : ["HTML5", "CSS3", "ES6"],
@@ -91,7 +91,7 @@
     "description" : "A yearbook site with a Holy Grail layout built using Flexbox. The page is fully responsive with media queries for mobile and tablet.",
     "urls" : {
       "site": "yearbook",
-      "live": "path",
+      "live": "https://hilwynn.github.io/holy-grail-layout",
       "code": "https://github.com/Hilwynn/holy-grail-layout"
     },
     "code" : ["HTML5", "CSS3"],
