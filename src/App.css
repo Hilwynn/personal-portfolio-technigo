@@ -50,6 +50,10 @@ a, li, p {
   line-height: 2.2rem;
 }
 
+i {
+  font-size: inherit;
+}
+
 p, ul {
   margin-bottom: 2rem;
 }
