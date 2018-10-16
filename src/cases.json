@@ -50,7 +50,7 @@
     "urls" : {
       "site": "productpage",
       "live": "path",
-      "code": "path"
+      "code": "https://github.com/Hilwynn/product-page"
     },
     "code" : ["HTML5", "CSS3", "ES6", "React", "Custom API"],
     "toolbox" : ["Atom", "GitHub"],
