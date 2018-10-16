@@ -8,7 +8,7 @@
     "urls" : {
       "site": "radioplayer",
       "live": "path",
-      "code": "path"
+      "code": "https://github.com/Hilwynn/radio-player"
     },
     "code": ["HTML5", "CSS3", "ES6", "React", "External API"],
     "toolbox": ["Atom", "GitHub"],
@@ -22,7 +22,7 @@
     "urls" : {
       "site": "weatherapp",
       "live": "path",
-      "code": "path"
+      "code": "https://github.com/Hilwynn/weather-app"
     },
     "code" : ["HTML5", "CSS3", "ES6", "External API"],
     "toolbox" : ["Atom", "GitHub"],
@@ -35,8 +35,8 @@
     "description" : "Registration form built as an exercise in re-creating an already existing form. Desktop optimized.",
     "urls" : {
       "site": "form",
-      "live": "path",
-      "code": "path"
+      "live": "https://hilwynn.github.io/registration-form",
+      "code": "https://github.com/Hilwynn/registration-form"
     },
     "code" : ["HTML5", "CSS3"],
     "toolbox" : ["Atom", "GitHub"],
@@ -44,7 +44,7 @@
   },
   {
     "key" : 4,
-    "title": "Product page built with React using a custom API",
+    "title": "Product page built in React using a custom API",
     "image" : "case-productpage.png",
     "description" : "Product page built in React using a custom JSON file of products. The page is fully responsive with media queries for mobile and tablet.",
     "urls" : {
@@ -53,6 +53,62 @@
       "code": "https://github.com/Hilwynn/product-page"
     },
     "code" : ["HTML5", "CSS3", "ES6", "React", "Custom API"],
+    "toolbox" : ["Atom", "GitHub"],
+    "more" : ["Concept Development", "Agile methodology"]
+  },
+  {
+    "key" : 5,
+    "title": "Newspaper layout using HTML5 and CSS3",
+    "image" : "case-newspaper.png",
+    "description" : "Newspaper layout for a fictional cat news site. Fully responsive.",
+    "urls" : {
+      "site": "newspaper",
+      "live": "path",
+      "code": "https://github.com/Hilwynn/newspaper-layout"
+    },
+    "code" : ["HTML5", "CSS3"],
+    "toolbox" : ["Atom", "GitHub"],
+    "more" : ["Concept Development", "Agile methodology"]
+  },
+  {
+    "key" : 6,
+    "title": "Animated accordion using HTML5, CSS3 and JavaScript",
+    "image" : "case-accordion.png",
+    "description" : "A simple FAQ accordion using JavaScript to create smooth opening och closing animations. Fully responsive.",
+    "urls" : {
+      "site": "accordion",
+      "live": "path",
+      "code": "https://github.com/Hilwynn/animated-accordion"
+    },
+    "code" : ["HTML5", "CSS3", "ES6"],
+    "toolbox" : ["Atom", "GitHub"],
+    "more" : ["Concept Development", "Agile methodology"]
+  },
+  {
+    "key" : 7,
+    "title": "Yearbook site using HTML5 and CSS3",
+    "image" : "case-yearbook.png",
+    "description" : "A yearbook site with a Holy Grail layout built using Flexbox. The page is fully responsive with media queries for mobile and tablet.",
+    "urls" : {
+      "site": "yearbook",
+      "live": "path",
+      "code": "https://github.com/Hilwynn/holy-grail-layout"
+    },
+    "code" : ["HTML5", "CSS3"],
+    "toolbox" : ["Atom", "GitHub"],
+    "more" : ["Concept Development", "Agile methodology"]
+  },
+  {
+    "key" : 8,
+    "title": "A simple clock built in React",
+    "image" : "case-clock.png",
+    "description" : "A simple real-time clock built in React, featuring start and stop buttons. The background colour changes depending on the time of day.",
+    "urls" : {
+      "site": "clock",
+      "live": "path",
+      "code": "https://github.com/Hilwynn/simple-clock"
+    },
+    "code" : ["HTML5", "CSS3", "ES6", "React"],
     "toolbox" : ["Atom", "GitHub"],
     "more" : ["Concept Development", "Agile methodology"]
   }
