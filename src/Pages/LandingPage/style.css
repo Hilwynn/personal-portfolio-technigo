@@ -115,28 +115,27 @@
 }
 
 .case-card {
+  display: flex;
   margin: 1rem;
-  position: relative;
-  text-align: center;
   width: calc(50% - 2rem);
 }
 
-.case-card img:hover {
-  filter: contrast(0) sepia(100%) hue-rotate(116deg) brightness(1.4) saturate(0.28);
+.case-card h3 {
+  color: var(--black);
 }
 
-.centered {
-  color: white;
-  display: none;
-  left: 50%;
-  pointer-events: none;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.cases a:hover {
+  color: var(--pink);
 }
 
-.case-card img:hover ~ .centered {
-  display: block;
+.case-card-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.case-title {
+  margin-bottom: 1rem;
 }
 
 .skill-list-wrapper {
@@ -144,15 +143,6 @@
   flex-wrap: wrap;
   margin-top: 3.6rem;
   padding-left: 3rem;
-}
-
-.skill-list-wrapper h3,
-.studies-wrapper h3 {
-  font-family: Bitter, serif;
-}
-
-.skill-list-wrapper h3 {
-  text-transform: lowercase;
 }
 
 .skill-list {

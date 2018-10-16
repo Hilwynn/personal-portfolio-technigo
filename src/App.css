@@ -16,7 +16,7 @@ button {
   font-weight: 600;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: Bitter, serif;
   text-transform: lowercase;
 }
@@ -27,7 +27,6 @@ h2 {
 }
 
 h3 {
-  font-family: Nunito, sans-serif;
   font-size: 2rem;
 }
 
@@ -40,6 +39,7 @@ h4 {
 }
 
 img {
+  display: block;
   height: auto;
   width: 100%;
 }

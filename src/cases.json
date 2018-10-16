@@ -21,7 +21,7 @@
     "description" : "Weather app for the cities of Stockholm, Gothenburg and Malmoe using information from the Open Weather API. The background changes colour depending on the current temperature. Optimized for desktop.",
     "urls" : {
       "site": "weatherapp",
-      "live": "path",
+      "live": "https://hilwynn.github.io/weather-app",
       "code": "https://github.com/Hilwynn/weather-app"
     },
     "code" : ["HTML5", "CSS3", "ES6", "External API"],
@@ -49,7 +49,7 @@
     "description" : "Product page built in React using a custom JSON file of products. The page is fully responsive with media queries for mobile and tablet.",
     "urls" : {
       "site": "productpage",
-      "live": "path",
+      "live": "https://hilwynn.github.io/product-page",
       "code": "https://github.com/Hilwynn/product-page"
     },
     "code" : ["HTML5", "CSS3", "ES6", "React", "Custom API"],
@@ -105,7 +105,7 @@
     "description" : "A simple real-time clock built in React, featuring start and stop buttons. The background colour changes depending on the time of day.",
     "urls" : {
       "site": "clock",
-      "live": "path",
+      "live": "https://hilwynn.github.io/simple-clock",
       "code": "https://github.com/Hilwynn/simple-clock"
     },
     "code" : ["HTML5", "CSS3", "ES6", "React"],

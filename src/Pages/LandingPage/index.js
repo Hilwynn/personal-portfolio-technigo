@@ -81,7 +81,7 @@ export default class LandingPage extends Component {
             <span className="bullet pink">&#9679;</span>
             HTML5, CSS3, JavaScript, ES6, JSX, React, APIs
             <span className="bullet pink">&#9679;</span>
-            3 sprints with demos at Volumental, Bonnier News, Comprend and Svenska spel
+            6 sprints with demos at Volumental, Bonnier News, Comprend and Svenska spel
           </p>
           <div className="cases">
             {casesJson.cases.map(project =>
