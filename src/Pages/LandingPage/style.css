@@ -67,9 +67,19 @@
   text-align: right;
 }
 
+.about-me-contact a i {
+  color: var(--pink);
+  font-size: 4rem;
+  margin: 0 .5rem;
+}
+
 .about-me-contact a {
   color: var(--black);
-  font-size: 1.4rem;
+}
+
+.about-me-contact a i:hover,
+.about-me-contact a i:focus {
+  color: var(--black);
 }
 
 .about-me-contact a:hover,

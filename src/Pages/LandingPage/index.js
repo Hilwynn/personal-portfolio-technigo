@@ -26,8 +26,7 @@ export default class LandingPage extends Component {
           </div>
           <div className="about-me-right">
             <h2>
-              Front-end Developer <br />
-              + Translator
+              Front-end Developer with a background in communications
             </h2>
             <div className="about-me-bio">
               <p>
@@ -40,10 +39,10 @@ export default class LandingPage extends Component {
               </p>
               <p>
                 The Internet has been my second
-                home for nearly 20 years and as a
-                web developer my goal is to
-                create an engaging and accessible
-                experience for my fellow netizens.
+                home for nearly 20 years and my
+                goal is to create an engaging and
+                accessible experience for my
+                fellow netizens.
               </p>
             </div>
             <div className="about-me-contact">
@@ -52,14 +51,13 @@ export default class LandingPage extends Component {
                   href="https://github.com/Hilwynn"
                   rel="noopener noreferrer"
                   target="_blank">
-                  GitHub
+                  <i className="fab fa-github-square" />
                 </a>
-                &nbsp;|&nbsp;
                 <a
                   href="https://www.linkedin.com/in/anna-erkers-868738118/"
                   rel="noopener noreferrer"
                   target="_blank">
-                  LinkedIn
+                  <i className="fab fa-linkedin" />
                 </a>
                 <br />
                 anna.erkers@gmail.com
@@ -77,13 +75,13 @@ export default class LandingPage extends Component {
         <section className="container tech">
           <h2>Tech.</h2>
           <p>
-            240+ hours of coding
+            480+ hours of coding
             <span className="bullet pink">&#9679;</span>
-            15 individual tasks
+            35 projects
             <span className="bullet pink">&#9679;</span>
-            HTML5, CSS3, Flexbox, JavaScript, ES6, JSX, React, APIs
+            HTML5, CSS3, JavaScript, ES6, JSX, React, APIs
             <span className="bullet pink">&#9679;</span>
-            3 sprints with demos at Volumental, Bonnier News and Comprend
+            3 sprints with demos at Volumental, Bonnier News, Comprend and Svenska spel
           </p>
           <div className="cases">
             {casesJson.cases.map(project =>
@@ -177,7 +175,7 @@ export default class LandingPage extends Component {
                 Studies in the fields of Swedish
                 and English literature and
                 linguistics, as well as
-                Translation Theory with a focus
+                Translation Studies with a focus
                 on translation from English to
                 Swedish.
               </p>
