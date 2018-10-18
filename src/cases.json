@@ -2,7 +2,7 @@
   "cases": [
   {
     "key" : 1,
-    "title": "Radio player using the Sveriges Radio API",
+    "title": "Radio player built in React using the Sveriges Radio API",
     "image" : "case-radioplayer.png",
     "description" : "Searchable radio hub using channels from the Sveriges Radio API. The search function is case-insensitive and the page itself is fully responsive with media queries for mobile and tablet.",
     "urls" : {
@@ -16,7 +16,7 @@
   },
   {
     "key" : 2,
-    "title": "Weather Chrome Extension using the Open Weather API",
+    "title": "Chrome weather extension using the Open Weather API",
     "image" : "case-weatherapp.png",
     "description" : "Weather app for the cities of Stockholm, Gothenburg and Malmoe using information from the Open Weather API. The background changes colour depending on the current temperature. Optimized for desktop.",
     "urls" : {
@@ -32,7 +32,7 @@
     "key" : 3,
     "title": "Registration form built in HTML5 and CSS3",
     "image" : "case-form.png",
-    "description" : "Registration form built as an exercise in re-creating an already existing form. Desktop optimized.",
+    "description" : "Built as an exercise in re-creating the World of Warcraft sign-up form. The page is fully responsive with media queries for mobile and tablet.",
     "urls" : {
       "site": "registrationform",
       "live": "https://hilwynn.github.io/registration-form",
@@ -60,7 +60,7 @@
     "key" : 5,
     "title": "Newspaper layout using HTML5 and CSS3",
     "image" : "case-newspaper.png",
-    "description" : "Newspaper layout for a fictional cat news site. Fully responsive.",
+    "description" : "Newspaper layout for a fictional cat news site. The page is fully responsive with media queries for mobile and tablet.",
     "urls" : {
       "site": "newspaper",
       "live": "https://hilwynn.github.io/newspaper-layout",
@@ -74,7 +74,7 @@
     "key" : 6,
     "title": "Animated accordion using HTML5, CSS3 and JavaScript",
     "image" : "case-accordion.png",
-    "description" : "A simple FAQ accordion using JavaScript to create smooth opening och closing animations. Fully responsive.",
+    "description" : "A simple FAQ accordion using JavaScript to create smooth opening och closing animations.",
     "urls" : {
       "site": "accordion",
       "live": "https://hilwynn.github.io/animated-accordion",
@@ -100,7 +100,7 @@
   },
   {
     "key" : 8,
-    "title": "A simple clock built in React",
+    "title": "Clock built in React",
     "image" : "case-clock.png",
     "description" : "A simple real-time clock built in React, featuring start and stop buttons. The background colour changes depending on the time of day.",
     "urls" : {
