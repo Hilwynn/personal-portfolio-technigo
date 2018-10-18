@@ -26,22 +26,24 @@ export default class LandingPage extends Component {
           </div>
           <div className="about-me-right">
             <h2>
-              Front-end Developer with a background in communications
+              <span className="purple">Front-end Developer</span>
+              <br />
+              skilled in language and communication
             </h2>
             <div className="about-me-bio">
               <p>
                 Hello! I&apos;m a linguistics
                 enthusiast with a knack for
                 problem-solving and falling down
-                google holes in search of
+                Google holes in search of
                 everything from cool CSS tricks
                 to Warcraft lore.
               </p>
               <p>
                 The Internet has been my second
-                home for nearly 20 years and my
-                goal is to create an engaging and
-                accessible experience for my
+                home for nearly 20 years and I
+                love creating engaging and
+                accessible experiences for my
                 fellow netizens.
               </p>
             </div>
@@ -106,6 +108,7 @@ export default class LandingPage extends Component {
                 <li>JavaScript ES6</li>
                 <li>React</li>
                 <li>SASS</li>
+                <li>Node.js</li>
               </ul>
             </div>
             <div className="skill-list">
@@ -126,13 +129,12 @@ export default class LandingPage extends Component {
                 <li>Agile methodology</li>
                 <li>Translation</li>
                 <li>Proof-reading</li>
-                <li>Text-production</li>
+                <li>Text production</li>
               </ul>
             </div>
             <div className="skill-list">
               <h3>Upcoming</h3>
               <ul>
-                <li>Node.js</li>
                 <li>Redux</li>
                 <li>Grid</li>
                 <li>anime.js</li>
