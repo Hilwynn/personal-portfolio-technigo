@@ -81,7 +81,7 @@ export default class LandingPage extends Component {
             <span className="bullet pink">&#9679;</span>
             35 projects
             <span className="bullet pink">&#9679;</span>
-            HTML5, CSS3, JavaScript, ES6, JSX, React, APIs
+            HTML5, CSS3, JavaScript, ES6, JSX, React, Node.js, APIs
             <span className="bullet pink">&#9679;</span>
             6 sprints with demos at Volumental, Bonnier News, Comprend and Svenska spel
           </p>
