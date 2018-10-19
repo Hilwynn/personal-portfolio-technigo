@@ -145,6 +145,10 @@
   padding-left: 3rem;
 }
 
+.skill-list-wrapper h3 {
+  text-transform: lowercase;
+}
+
 .skill-list {
   position: relative;
   width: 33.33%;
