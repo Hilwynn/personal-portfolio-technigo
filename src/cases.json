@@ -32,7 +32,7 @@
     "key" : 3,
     "title": "Registration form built in HTML5 and CSS3",
     "image" : "case-form.png",
-    "description" : "Built as an exercise in re-creating the World of Warcraft sign-up form. The page is fully responsive with media queries for mobile and tablet.",
+    "description" : "Built as an exercise in re-creating the World of Warcraft sign-up form as closely as possible using only HTML and CSS3. The page is fully responsive with media queries for mobile and tablet.",
     "urls" : {
       "site": "registrationform",
       "live": "https://hilwynn.github.io/registration-form",
@@ -74,7 +74,7 @@
     "key" : 6,
     "title": "Animated accordion using HTML5, CSS3 and JavaScript",
     "image" : "case-accordion.png",
-    "description" : "A simple FAQ accordion using JavaScript to create smooth opening och closing animations.",
+    "description" : "Simple FAQ accordion using JavaScript to create smooth opening och closing animations.",
     "urls" : {
       "site": "accordion",
       "live": "https://hilwynn.github.io/animated-accordion",
@@ -88,7 +88,7 @@
     "key" : 7,
     "title": "Yearbook site using HTML5 and CSS3",
     "image" : "case-yearbook.png",
-    "description" : "A yearbook site with a Holy Grail layout built using Flexbox. The page is fully responsive with media queries for mobile and tablet.",
+    "description" : "Yearbook site with a Holy Grail layout built using Flexbox. The page is fully responsive with media queries for mobile and tablet.",
     "urls" : {
       "site": "yearbook",
       "live": "https://hilwynn.github.io/holy-grail-layout",
@@ -102,13 +102,41 @@
     "key" : 8,
     "title": "Clock built in React",
     "image" : "case-clock.png",
-    "description" : "A simple real-time clock built in React, featuring start and stop buttons. The background colour changes depending on the time of day.",
+    "description" : "Simple real-time clock built in React, featuring start and stop buttons. The background colour changes depending on the time of day.",
     "urls" : {
       "site": "clock",
       "live": "https://hilwynn.github.io/simple-clock",
       "code": "https://github.com/Hilwynn/simple-clock"
     },
     "code" : ["HTML5", "CSS3", "ES6", "React"],
+    "toolbox" : ["Atom", "GitHub"],
+    "more" : ["Concept Development", "Agile methodology"]
+  },
+  {
+    "key" : 9,
+    "title": "VAT Calculator built in React",
+    "image" : "case-vatcalculator.png",
+    "description" : "VAT calculator built using React, with options to calculate VAT using either one of three fixed rates or a custom option. The page is fully responsive with media queries for mobile and tablet.",
+    "urls" : {
+      "site": "vatcalculator",
+      "live": "https://hilwynn.github.io/vat-calculator",
+      "code": "https://github.com/Hilwynn/vat-calculator"
+    },
+    "code" : ["HTML5", "CSS3", "ES6", "React"],
+    "toolbox" : ["Atom", "GitHub"],
+    "more" : ["Concept Development", "Agile methodology"]
+  },
+  {
+    "key" : 10,
+    "title": "To-do app wit local storage built in React",
+    "image" : "case-todoapp.png",
+    "description" : "To-do app built in React. Tasks are saved in the browser using local storage and the user can create new tasks, check and uncheck existing ones and remove them from the list permanently. The page is fully responsive with media queries for mobile and tablet.",
+    "urls" : {
+      "site": "todoapp",
+      "live": "https://hilwynn.github.io/to-do-app",
+      "code": "https://github.com/Hilwynn/to-do-app"
+    },
+    "code" : ["HTML5", "CSS3", "SASS", "ES6", "React"],
     "toolbox" : ["Atom", "GitHub"],
     "more" : ["Concept Development", "Agile methodology"]
   }
